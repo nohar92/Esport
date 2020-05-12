@@ -33,7 +33,7 @@ public class Example {
 
         if (args[0] != null) {
             try {
-                Summoner summoner = api.getSummonerByName(Platform.EUNE, args[0]); // barbár módjára
+                Summoner summoner = api.getSummonerByName(Platform.EUNE, args[0]); 
                 System.out.println("Name: " + summoner.getName());
             } catch (RiotApiException e) {
                 e.printStackTrace();
